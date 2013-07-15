@@ -1,0 +1,14 @@
+<!DOCTYPE hmtl>
+<html lang="en">
+    <head>
+        <meta charset="utf8">
+        <% stylesheets.forEach(function(stylesheet) { %>
+            <% include partials/stylesheet %>
+        <% }) %>
+        <title><%= title %></title>
+    </head>
+    <body>
+        <h1><%= header %></h1>
+        <%-  body %>
+    </body>
+</html>
